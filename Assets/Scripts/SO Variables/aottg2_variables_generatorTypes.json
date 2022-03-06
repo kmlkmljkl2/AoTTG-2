@@ -1,8 +1,3 @@
-{
-    "types": [
-        {
-            "name": "InGameMainCamera",
-            "type": "IN_GAME_MAIN_CAMERA"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8590b5a39dbeeb9d2dba96a45d24272025d983d91811975d6a4eb9d123174578
+size 133
