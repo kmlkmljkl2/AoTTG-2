@@ -64,6 +64,7 @@ namespace Assets.Scripts.Services
                 PhotonNetwork.AuthValues.AddAuthParameter("token", Service.Authentication.AccessToken);
             }
             PhotonNetwork.ConnectToMaster(currentServerConfig.IpAddress, currentServerConfig.Port, "", VersionManager.Version);
+            Debug.Log(currentServerConfig.IpAddress + " " + VersionManager.Version);
         }
 
         public void ChangePhotonServer(PhotonServerConfig server)
